@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@tailwind utilities;
+@layer components {
+  .main-c {
+    color: #5ea6ed;
+  }
+  .h-bg {
+    background-color: hsl(220, 15%, 25%);
+  }
+  .text-c {
+    color: #393e46cc;
+  }
+  .orange {
+    background-color: #f5993d;
+  }
+  .container {
+    margin: 0 auto;
+  }
+  .about-bg {
+    background-color: hsl(220, 15%, 92%);
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
