@@ -19,11 +19,7 @@ export default function About(props) {
         </div>
         <div className="content grid grid-cols-1 min-lg:grid-cols-2 mt-10 gap-10">
           <div className="img">
-            <img
-              className="m-auto rounded-lg"
-              src="https://placehold.co/400x500"
-              alt=""
-            />
+            <img className="m-auto rounded-lg" src={props.img} alt="" />
           </div>
           <div className="tx">
             <div className="my-story p-5 rounded-[10px] bg-white">

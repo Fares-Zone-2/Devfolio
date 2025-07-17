@@ -1,4 +1,4 @@
-export default function Landing() {
+export default function Landing(props) {
   return (
     <div className="landing">
       <div className="container grid items-center h-screen grid-cols-1 min-sm:grid-cols-2 gap-5 p-3">
@@ -26,12 +26,8 @@ export default function Landing() {
             </a>
           </div>
         </div>
-        <div className="ml-auto mr-auto">
-          <img
-            className="rounded-[10px]"
-            src="https://www.placehold.co/500x600"
-            alt=""
-          />
+        <div className="ml-auto mr-auto w-full">
+          <img src={props.img} alt="" />
         </div>
       </div>
     </div>

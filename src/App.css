@@ -19,6 +19,9 @@
   .about-bg {
     background-color: hsl(220, 15%, 92%);
   }
+  .wr {
+    flex-wrap: wrap;
+  }
 }
 html {
   scroll-behavior: smooth;
